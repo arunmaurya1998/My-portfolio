@@ -24,7 +24,7 @@ function handleDownload(event, link) {
     window.open(link, '_blank');
 
     var downloadLink = document.createElement('a');
-    downloadLink.href = 'https://drive.google.com/uc?export=download&id=16OhqFGT4XrY1-0cnZeuysLbt4a0D4UHW';
+    downloadLink.href = 'https://drive.google.com/uc?export=download&id=1V4L2YJ720MMZtaRdWjaDoxEHyqoo07zJ';
     downloadLink.setAttribute('download', 'Resume'); //
     downloadLink.style.display = 'none';
     document.body.appendChild(downloadLink);
